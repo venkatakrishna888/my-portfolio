@@ -14,19 +14,13 @@ navItems.forEach(item => {
         }
 
         if(text === "About"){
-            document.querySelector(".about").scrollIntoView({
+            document.querySelector(".about-skills").scrollIntoView({
                 behavior: "smooth"
             });
         }
 
         if(text === "Projects"){
             document.querySelector(".projects").scrollIntoView({
-                behavior: "smooth"
-            });
-        }
-
-        if(text === "Skills"){
-            document.querySelector(".skills").scrollIntoView({
                 behavior: "smooth"
             });
         }
